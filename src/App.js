@@ -4,7 +4,9 @@ import React from 'react'
 //import MsgBox from './class-props'
 //import MsgBox2 from './func-props'
 //import Banner from './banner'
-import {EventData2} from './event-data'
+//import {EventData2} from './event-data'
+//import RefsArray from './refs-array'
+import MessageBox from './state-func'
 
 function App(){
   /*
@@ -45,7 +47,10 @@ function App(){
   )
   */
 
-  return <EventData2/>
+  //return <EventData2/>
 
+  //return <RefsArray/>
+
+  return <MessageBox/>
 }
 export default App;
