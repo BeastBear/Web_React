@@ -6,7 +6,10 @@ import React from 'react'
 //import Banner from './banner'
 //import {EventData2} from './event-data'
 //import RefsArray from './refs-array'
-import MessageBox from './state-func'
+//import MessageBox from './state-func'
+//import FormBootstrap from './form-bootstrap';
+import FormValidation from './form-validation';
+
 
 function App(){
   /*
@@ -51,6 +54,11 @@ function App(){
 
   //return <RefsArray/>
 
-  return <MessageBox/>
+  //return <MessageBox/>
+
+  //return <FormBootstrap/>
+
+  return <FormValidation/>
+
 }
 export default App;
